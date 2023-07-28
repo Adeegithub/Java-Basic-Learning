@@ -82,5 +82,22 @@ public class Main {
 //            System.out.println("Please work Harder");
 //        }
 
+        //LOGICAL OPERATORS
+
+        int x = 20;
+        int y = -30;
+
+        // AND OPERATOR
+        if (x > 0 && y > 0) {
+            System.out.println("Positive");
+        } else {
+            System.out.println("Negative");
+        }
+
+        if (x > 0 || y > 0) {
+            System.out.println("Positive");
+        } else {
+            System.out.println("Negative");
+        }
     }
 }
