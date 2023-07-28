@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -102,18 +103,73 @@ public class Main {
 
         //SWITCH CASE
 
-        Scanner sc1 = new Scanner(System.in);
-        System.out.print("Please enter your marks: ");
-        int day = sc1.nextInt();
+//        Scanner sc1 = new Scanner(System.in);
+//        System.out.print("Please enter your marks: ");
+//        int day = sc1.nextInt();
+//
+//        switch (day) {
+//            case 1 -> System.out.println("Monday");
+//            case 2 -> System.out.println("Tuesday");
+//            case 3 -> System.out.println("Wednesday");
+//            case 4 -> System.out.println("Thursday");
+//            case 5 -> System.out.println("Friday");
+//            case 6 -> System.out.println("Saturday");
+//            case 7 -> System.out.println("Sunday");
+//            default -> System.out.println("Invalid Input");
+//        }
 
-        switch (day) {
-            case 1 -> System.out.println("Monday");
-            case 2 -> System.out.println("Tuesday");
-            case 3 -> System.out.println("Wednesday");
-            case 4 -> System.out.println("Thursday");
-            case 5 -> System.out.println("Friday");
-            case 6 -> System.out.println("Saturday");
-            case 7 -> System.out.println("Sunday");
+        //WHILE LOOP
+
+//        //print even numbers between 10 and 10
+//        int i = 10;
+//        while (i<=20){
+//            System.out.println(i);
+//            i+=2;
+//        }
+
+        //DO-WHILE LOOP
+//        int i = 1;
+//        do {
+//            System.out.println("HELLO");
+//            i++;
+//        } while (i<=3);
+
+        //ARRAYS
+//        int[] evenArray = {2, 4, 6, 8};
+//        String[] names = {"Adeesha", "Kaveesha", "Sadeesha"};
+//
+//        //Accessing the arrays
+//        System.out.println(names[0]);
+//        System.out.println(Arrays.toString(evenArray));
+//
+//        //Editing the arrays
+//        names[2] = "Chathusha";
+//        System.out.println(Arrays.toString(names));
+//
+//        String[] names2 = new String[5];
+//        names2[0] = "Bellamy";
+//        System.out.println(names2[0]);
+//        System.out.println(names2[4]);
+//
+//        //2D ARRAY
+//
+//        int[][] twoDArray = {
+//                {1, 2, 3}, //row Index 0
+//                {4, 5, 6}, //row Index 1
+//                {7, 8, 9}  //row Index 2
+//        };
+//
+//        //Accessing Number 4 [row -> 1 Column -> 1]
+//        System.out.println("Your Number is: " + twoDArray[1][0]);
+
+        //FOR LOOP
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Welcome to the ground!");
+        }
+
+        String[] names = {"Adeesha", "Kaveesha", "Sadeesha"};
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
         }
     }
 }
