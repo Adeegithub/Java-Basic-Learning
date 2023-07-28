@@ -1,2 +1,2 @@
 # Java-Basic-Learning
-This repo is about the excercises I did and currently doing to undersrtand Java basics
+This repo is about the excercises I did and currently doing to understand Java basics
