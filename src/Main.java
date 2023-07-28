@@ -84,20 +84,36 @@ public class Main {
 
         //LOGICAL OPERATORS
 
-        int x = 20;
-        int y = -30;
+//        int x = 20;
+//        int y = -30;
+//
+//        // AND OPERATOR
+//        if (x > 0 && y > 0) {
+//            System.out.println("Positive");
+//        } else {
+//            System.out.println("Negative");
+//        }
+//
+//        if (x > 0 || y > 0) {
+//            System.out.println("Positive");
+//        } else {
+//            System.out.println("Negative");
+//        }
 
-        // AND OPERATOR
-        if (x > 0 && y > 0) {
-            System.out.println("Positive");
-        } else {
-            System.out.println("Negative");
-        }
+        //SWITCH CASE
 
-        if (x > 0 || y > 0) {
-            System.out.println("Positive");
-        } else {
-            System.out.println("Negative");
+        Scanner sc1 = new Scanner(System.in);
+        System.out.print("Please enter your marks: ");
+        int day = sc1.nextInt();
+
+        switch (day) {
+            case 1 -> System.out.println("Monday");
+            case 2 -> System.out.println("Tuesday");
+            case 3 -> System.out.println("Wednesday");
+            case 4 -> System.out.println("Thursday");
+            case 5 -> System.out.println("Friday");
+            case 6 -> System.out.println("Saturday");
+            case 7 -> System.out.println("Sunday");
         }
     }
 }
