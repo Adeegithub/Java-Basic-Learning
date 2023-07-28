@@ -163,13 +163,46 @@ public class Main {
 //        System.out.println("Your Number is: " + twoDArray[1][0]);
 
         //FOR LOOP
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("Welcome to the ground!");
-        }
+//        for (int i = 1; i <= 5; i++) {
+//            System.out.println("Welcome to the ground!");
+//        }
+//
+//        String[] names = {"Adeesha", "Kaveesha", "Sadeesha"};
+//        for (int i = 0; i < names.length; i++) {
+//            System.out.println(names[i]);
+//        }
 
-        String[] names = {"Adeesha", "Kaveesha", "Sadeesha"};
-        for (int i = 0; i < names.length; i++) {
-            System.out.println(names[i]);
-        }
+        //JAVA STRING
+
+        //Same memory reference.
+        String name1 = "Adeesha";
+        String name2 = "Adeesha";
+
+        if (name1 == name2)
+            System.out.println("Names are equal");
+        else
+            System.out.println("Names are not equal");
+
+        //Different memory references
+        String name3 = new String("Octavia");
+        String name4 = new String("Octavia");
+
+        if (name3 == name4)
+            System.out.println("Names are equal");
+        else
+            System.out.println("Names are not equal");
+
+        System.out.println(name3.length());
+        System.out.println(name3.toUpperCase());
+
+        String firstName = "Adeesha";
+        String secondName = "Arunoda";
+
+        System.out.println(firstName + " " +  secondName);
+        System.out.println(firstName.concat(" " + secondName));
+        System.out.println(firstName.replace("Ad","Sad"));
+        System.out.println(firstName.contains("e"));
+
+
     }
 }
